@@ -13,20 +13,36 @@ header {
   width: 80%;
   background-color: lightcoral;
   text-align: center;
-  margin: auto;
+  /* margin: auto; */
+}
+.grid-container {
+  display: flex;
 }
 .grid {
-  margin: auto;
+  /* margin: auto; */
   width: 200px;
   height: 400px;
   background-color: aqua;
   display: flex;
   flex-wrap: wrap;
 }
-.grid > div {
+.grid div {
   width: 20px;
   height: 20px;
 }
 .tetromino {
   background-color: red;
+}
+.mini-grid {
+  width: 80px;
+  height: 80px;
+  margin-left: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: yellow;
+}
+
+.mini-grid div {
+  width: 20px;
+  height: 20px;
 }
